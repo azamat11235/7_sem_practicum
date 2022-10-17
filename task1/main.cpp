@@ -401,7 +401,7 @@ int main(int argc, char ** argv)
 	m.Load(argv[1]);
 	main_create_tag(m);
 	//main_get_tag(m);
-	//main_mesh_diam(m);
+	main_mesh_diam(m);
 	//main_diff_cell_funcs(m);
 	//main_linear_solver(m);
 	main_diff_node_funcs(m);
